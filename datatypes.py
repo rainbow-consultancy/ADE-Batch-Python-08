@@ -27,16 +27,16 @@ age = 20
 
 ls = [1, 2, 3, 4, 5]
 
-# ls2 = ["anana", 123, 23.9, True, False]
-# print(ls2)
+ls2 = ["anana", 123, 23.9, True, False]
+print(ls2)
 
 # mutable / immutable
 
-# tup = (1, 2, 3, 4, 5, 'kaka', 12.90, True)
-# print(tup)
+tup = (1, 2, 3, 4, 5, 'kaka', 12.90, True)
+print(tup)
 
-# set = {1, 2, 2, 2, 3, 4, 5, 'kaka', 12.90, True}
-# print(set)
+set = {1, 2, 2, 2, 3, 4, 5, 'kaka', 12.90, True}
+print(set)
 
-# dict = {'name': 'John', 'age': 20, 'is_student': True}
-# print(dict)
+dict = {'name': 'John', 'age': 20, 'is_student': True}
+print(dict)
