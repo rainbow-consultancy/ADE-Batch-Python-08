@@ -63,4 +63,18 @@ def add(*nums):
 def emp_details(**kwargs):
     print(kwargs)
 
-print(emp_details(name="Jhon", age=30, city="Bangalore", state="Karnataka"))
+# print(emp_details(name="Jhon", age=30, city="Bangalore", state="Karnataka"))
+
+
+# default parameters
+
+# normal func
+# def add(x, y):
+#     return x + y
+
+def add(a, b, c=0):
+    return a+b+c
+
+print(add(10, 20))
+print(add(10, 20, 30))
+
